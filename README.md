@@ -10,3 +10,6 @@ You can find install instructions on my other app scripts repo: https://github.c
 Example view:
 
 
+![Example1](2017-05-15-15-25-23.png)
+
+![Example2](2017-05-15-15-24-37.png)
