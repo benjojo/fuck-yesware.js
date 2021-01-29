@@ -20,6 +20,14 @@ function fuckYesWare() {
         messages[m].markRead() // fuck off
         threads[i].addLabel(yeswarelabel) // and let me know as well
       }
+      if(messages[m].getRawContent().indexOf("track.mixmax.com") != -1) { // mixmax detection
+        messages[m].markRead() // fuck off
+        threads[i].addLabel(yeswarelabel) // and let me know as well
+      }    
+      if(messages[m].getRawContent().indexOf("replygu.com") != -1) { // replygu? detection
+        messages[m].markRead() // fuck off
+        threads[i].addLabel(yeswarelabel) // and let me know as well
+      }    
     }
   }
 };
